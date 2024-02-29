@@ -17,6 +17,12 @@
 }
 
 body {
+  display: grid;
+  grid-template-rows: minmax(70px, auto) 1fr minmax(40px, auto);
+}
+
+body,
+header {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
