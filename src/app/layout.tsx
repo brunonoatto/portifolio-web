@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`h-full px-4 md:px-10 ${roboto.className}`}>
+      <body className={`h-dvh px-4 md:px-10 ${roboto.className}`}>
         <Header />
         {children}
         <Footer />
