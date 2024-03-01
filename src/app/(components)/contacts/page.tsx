@@ -1,3 +1,10 @@
 export default function Contacts() {
-  return <div>CONTATOS</div>;
+  return (
+    <>
+      <div>Entre em contao cmg:</div>
+      <div>Email</div>
+      <div>Linkedin</div>
+      <div>Gthub</div>
+    </>
+  );
 }

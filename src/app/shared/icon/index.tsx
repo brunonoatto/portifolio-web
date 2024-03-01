@@ -1,7 +1,13 @@
-type TIcon = "menu" | "";
+type TIcon = "menu" | "visibility";
 
-export type TIconProps = { name: TIcon };
+export type TIconProps = React.HTMLAttributes<HTMLSpanElement> & {
+  name: TIcon;
+};
 
-export default function Icon({ name }: TIconProps) {
-  return <span className="material-symbols-outlined">{name}</span>;
+export default function Icon({ name, className, ...otherProps }: TIconProps) {
+  return (
+    <div className={`material-symbols-outlined ${className}`} {...otherProps}>
+      {name}
+    </div>
+  );
 }

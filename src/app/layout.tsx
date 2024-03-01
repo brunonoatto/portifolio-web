@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`h-dvh px-4 md:px-10 ${roboto.className}`}>
         <Header />
-        {children}
+        <main className="space-y-10 m-auto">{children}</main>
         <Footer />
       </body>
     </html>

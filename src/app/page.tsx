@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="border border-red-600">
+    <>
       <div className="flex flex-col-reverse justify-evenly md:flex-row text-center md:text-left p-4">
         <div className="p-4">
-          <div>Olá!</div>
-          <div>
+          <div className="text-7xl font-semibold">Olá!</div>
+          <div className="text-6xl">
             Me chamo <span className="text-red-500">Bruno</span>.
           </div>
-          <div>Desenvolvedor Front-end.</div>
+          <div className="text-xl">Desenvolvedor Front-end.</div>
         </div>
         <div className="">
           <Image
@@ -21,9 +21,9 @@ export default function Home() {
           />
         </div>
       </div>
-      <div>
-        <div>Deixe-me apresentar:</div>
-        <div>
+      <div className="text-center">
+        <div className="text-3xl">Deixe-me apresentar:</div>
+        <div className="text-xl p-4 md:p-6">
           Sou apaixonado por programação desde o primeiro dia de trabalho,
           confesso que quando sai do ensino médio meu sonho era trabalhar com
           hardware(trocar memória, mexer na placa mãe e etc), porém o destino
@@ -40,6 +40,6 @@ export default function Home() {
           sempre prezando pela qualidade máxima no que faço.
         </div>
       </div>
-    </main>
+    </>
   );
 }
