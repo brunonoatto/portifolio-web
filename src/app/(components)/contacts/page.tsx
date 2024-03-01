@@ -5,11 +5,12 @@ export default function Contacts() {
     <div className="text-center">
       <div className="text-3xl">Entre em contao comigo:</div>
       <br />
-      <div className="flex flex-col md:flex-row justify-evenly">
+      <div className="flex flex-col md:flex-row justify-evenly gap-6 md:gap-0">
         <ContactItem
           src="/logos/gmail.svg"
           alt="Email"
           href="mailto:brunonoatto@gmail.com"
+          title="brunonoatto@gmail.com"
         />
         <ContactItem
           src="/logos/linkedin.svg"
