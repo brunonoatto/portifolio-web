@@ -3,7 +3,7 @@ import ContactItem from "./contact-item";
 export default function Contacts() {
   return (
     <div className="text-center">
-      <div className="text-3xl">Entre em contao comigo:</div>
+      <div className="text-3xl">Entre em contato comigo:</div>
       <br />
       <div className="flex flex-col md:flex-row justify-evenly gap-6 md:gap-0">
         <ContactItem
