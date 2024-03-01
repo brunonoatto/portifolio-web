@@ -7,7 +7,7 @@ export default function Paragraph({ title, paragraphs }: TParagraphProps) {
 
       <div className="text-xl p-4 md:p-6">
         {paragraphs.map((text, index) => (
-          <div key={index} className="text-justify indent-12">
+          <div key={index} className="text-justify indent-4 md:indent-12">
             {text}
           </div>
         ))}
