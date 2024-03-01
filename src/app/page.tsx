@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col-reverse justify-evenly md:flex-row text-center px-4 py-12">
+      <div className="flex flex-col-reverse justify-evenly md:flex-row text-center">
         <div className="p-4  md:text-left">
           <div className="text-7xl font-semibold">Olá!</div>
           <div className="text-6xl">
