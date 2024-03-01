@@ -3,7 +3,7 @@ import SkillItem from "./skill-item";
 
 export default function Skills() {
   return (
-    <div>
+    <>
       <div className="text-3xl text-center">Habilidades profissionais:</div>
       <br />
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-12 text-center">
@@ -35,6 +35,6 @@ export default function Skills() {
         <SkillItem src="/logos/git.svg" alt="Git" />
         <SkillItem src="/logos/github.svg" alt="GitHub" />
       </div>
-    </div>
+    </>
   );
 }
