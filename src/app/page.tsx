@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Paragraph from "./shared/text-container";
+
+import Paragraph from "./shared/paragraph";
 
 export default function Home() {
   return (

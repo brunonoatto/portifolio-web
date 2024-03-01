@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import SkillItem from "./skill-item";
 
 export default function Skills() {

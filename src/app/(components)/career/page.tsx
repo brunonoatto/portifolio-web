@@ -1,4 +1,4 @@
-import Paragraph from "@/app/shared/text-container";
+import Paragraph from "@/app/shared/paragraph";
 
 export default function Career() {
   return (
