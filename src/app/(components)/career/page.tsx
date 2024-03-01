@@ -1,6 +1,6 @@
 export default function Career() {
   return (
-    <div className=" text-center">
+    <div className="text-center">
       <div className="text-3xl">Breve resumo da minha carreira:</div>
       <div className="text-xl p-4 md:p-6">
         Trabalho com desenvolvimento de software desde 2008. No início trabalhei
