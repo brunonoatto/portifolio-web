@@ -16,6 +16,36 @@ export const metadata: Metadata = {
   title: "Portifólio | Bruno Noatto Iserhardt",
   description:
     "Explore o portifólio e descubra quem é e quais são as habilidade do desenvolvedor Bruno Noatto Iserhardt.",
+  applicationName: "Portifólio de Bruno Noatto Iserhardt",
+  creator: "Bruno Noatto Iserhardt",
+  category: "Portifólio",
+  keywords: [
+    "Bruno Noatto",
+    "Bruno Iserhardt",
+    "Portifólio",
+    "Desenvolvedor Frontend",
+    "Desenvolvedor Front-End",
+    "Desenvolvedor web",
+    "HTML",
+    "HTML5",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Jest",
+    "Playwright",
+    "Redux",
+    "Zustand",
+    "React Router",
+    "React Query",
+    "Storybook",
+    "Tailwind",
+  ],
+  robots: {
+    follow: true,
+    index: true,
+  },
 };
 
 export default function RootLayout({
