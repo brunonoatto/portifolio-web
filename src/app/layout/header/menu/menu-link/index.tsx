@@ -1,9 +1,9 @@
 "use client";
 
-import Link, { type InternalLinkProps } from "next/link";
+import Link, { type LinkProps } from "next/link";
 import { usePathname } from "next/navigation";
 
-type TMenuLinkProps = InternalLinkProps & { children: React.ReactNode };
+type TMenuLinkProps = LinkProps & { children: React.ReactNode };
 
 export default function MenuLink({ children, ...props }: TMenuLinkProps) {
   const pathname = usePathname();
