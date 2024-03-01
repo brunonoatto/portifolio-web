@@ -2,7 +2,7 @@ import Image from "next/image";
 
 type TSkillItemProps = {
   src: string;
-  alt: String;
+  alt: string;
 };
 
 export default function SkillItem({ src, alt }: TSkillItemProps) {
