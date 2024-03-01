@@ -14,7 +14,7 @@ export default function Home() {
         <div className="">
           <Image
             className="rouded rounded-full m-auto "
-            src="/selfie.jpg"
+            src="/images/selfie.jpg"
             width={150}
             height={125}
             alt="Selfie de Bruno Noatto Iserhardt"
