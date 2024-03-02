@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 import Header from "./layout/header";
 import Footer from "./layout/footer";
@@ -59,6 +60,7 @@ export default function RootLayout({
         <Header />
         <main className="w-full space-y-10 m-auto px-4 py-12">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
