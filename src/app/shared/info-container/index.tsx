@@ -1,5 +1,5 @@
 type TInfoContainerProps = {
-  children: React.ReactNodeNode;
+  children: React.ReactNode;
   className?: string;
 };
 
