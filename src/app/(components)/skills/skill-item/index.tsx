@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import SkillContainer from "../skill-container";
+import InfoContainer from "@/app/shared/info-container";
 
 type TSkillItemProps = {
   src: string;
@@ -9,9 +9,9 @@ type TSkillItemProps = {
 
 export default function SkillItem({ src, alt }: TSkillItemProps) {
   return (
-    <SkillContainer>
+    <InfoContainer className="py-4">
       <Image className="m-auto" src={src} width={100} height={100} alt={alt} />
       {alt}
-    </SkillContainer>
+    </InfoContainer>
   );
 }

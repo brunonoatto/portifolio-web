@@ -5,7 +5,7 @@ export default function Contacts() {
     <div className="text-center">
       <div className="text-3xl">Entre em contato comigo:</div>
       <br />
-      <div className="flex flex-col md:flex-row justify-evenly gap-6 md:gap-0">
+      <div className="flex flex-col md:flex-row justify-evenly gap-6">
         <ContactItem
           src="/logos/gmail.svg"
           alt="Email"
