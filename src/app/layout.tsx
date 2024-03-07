@@ -38,6 +38,7 @@ export const metadata: Metadata = {
     "ReactJS",
     "Next.js",
     "Nextjs",
+    "Vite",
     "Jest",
     "Playwright",
     "Redux",
