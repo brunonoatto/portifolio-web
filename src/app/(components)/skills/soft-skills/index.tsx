@@ -9,7 +9,7 @@ export default function SoftSkills() {
         <SkillItem alt="Colaborativo" />
         <SkillItem alt="Disseminação de conhecimento " />
         <SkillItem alt="Facilidade de comunicação " />
-        <SkillItem alt="Censo de urgência" />
+        <SkillItem alt="Senso de urgência" />
         <SkillItem alt="Resolução de problemas complexos " />
         <SkillItem alt="Ética" />
         <SkillItem alt="Foco no usuário e no produto" />
