@@ -13,17 +13,17 @@ export default function ThemeButton() {
       items={[
         {
           content: "Light",
-          "data-current": theme === "light",
+          isCurrent: theme === "light",
           onClick: () => setTheme("light"),
         },
         {
           content: "Dark",
-          "data-current": theme === "dark",
+          isCurrent: theme === "dark",
           onClick: () => setTheme("dark"),
         },
         {
           content: "System",
-          "data-current": theme === "system",
+          isCurrent: theme === "system",
           onClick: () => setTheme("system"),
         },
       ]}

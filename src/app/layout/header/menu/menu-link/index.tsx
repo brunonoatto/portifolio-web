@@ -1,19 +1,37 @@
 "use client";
 
 import Link, { type LinkProps } from "next/link";
-import { usePathname } from "next/navigation";
+import { tv, VariantProps } from "tailwind-variants";
 
-type TMenuLinkProps = LinkProps & { children: React.ReactNode };
+const menuVariants = tv({
+  base: "pb-1",
+  variants: {
+    withBorder: {
+      true: "border-b-2 border-red-500 border-opacity-30 hover:border-opacity-100",
+    },
+    isCurrent: {
+      true: "border-opacity-100",
+    },
+  },
+  defaultVariants: {
+    withBorder: false,
+    isCurrent: false,
+  },
+});
 
-export default function MenuLink({ children, ...props }: TMenuLinkProps) {
-  const pathname = usePathname();
+type TMenuLinkProps = LinkProps &
+  VariantProps<typeof menuVariants> & {
+    children: React.ReactNode;
+  };
 
+export default function MenuLink({
+  children,
+  isCurrent,
+  withBorder,
+  ...props
+}: TMenuLinkProps) {
   return (
-    <Link
-      {...props}
-      data-current={pathname == props.href}
-      className={`pb-1 border-b-2 border-red-500 border-opacity-30 data-[current=true]:border-opacity-100 hover:border-opacity-100`}
-    >
+    <Link {...props} className={menuVariants({ isCurrent, withBorder })}>
       {children}
     </Link>
   );
