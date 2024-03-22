@@ -1,6 +1,5 @@
-import Link from "next/link";
-
 import Icon from "@/app/shared/icon";
+import ButtonLink from "@/app/shared/button-link";
 import MenuLink from "./menu-link";
 
 export const menuList = [
@@ -16,7 +15,7 @@ export const menuList = [
   <MenuLink key="contacts" href="/contacts">
     Contatos
   </MenuLink>,
-  <Link
+  <ButtonLink
     key="curriculum"
     className="inline-flex space-x-2 px-2 py-1 border-2 border-red-500 border-opacity-50 hover:border-opacity-80 rounded-md align-middle"
     href="https://docs.google.com/document/d/1uBzcTcJ3uuiF5Uq4e0O5MF5qq_P6WUzFom3phFGZjzE/edit?usp=drive_link"
@@ -25,5 +24,5 @@ export const menuList = [
   >
     <Icon name="visibility" />
     <span className="m-auto">Currículo</span>
-  </Link>,
+  </ButtonLink>,
 ];
