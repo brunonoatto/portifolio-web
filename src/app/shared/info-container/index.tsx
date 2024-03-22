@@ -9,7 +9,7 @@ export default function InfoContainer({
 }: TInfoContainerProps) {
   return (
     <div
-      className={`${className} mx-auto transition duration-500 flex flex-col justify-between gap-2 rounded-lg bg-zinc-800 ring-2 ring-zinc-600 hover:ring-red-500 w-5/6`}
+      className={`${className} w-full mx-auto flex flex-col justify-between gap-2 rounded-lg bg-bg-secondary ring-4 ring-red-400 hover:ring-red-500 transition ease-in-out hover:-translate-y-1 hover:scale-110`}
     >
       {children}
     </div>

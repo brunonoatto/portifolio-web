@@ -30,7 +30,7 @@ const ThemeButton = () => {
           className="w-0 dark:w-auto rotate-90 scale-0 transition-all duration-1000 dark:rotate-0 dark:scale-100"
         />
         {openMenu && (
-          <ul className="min-w-max p-4 text-center rounded-lg border-2 border-red-500 bg-bgColor absolute top-14 right-14 md:right-2 flex-col space-y-3 overflow-hidden">
+          <ul className="min-w-max p-4 text-center rounded-lg border-2 border-red-500 bg-bg-secondary absolute top-14 right-14 md:right-2 flex-col space-y-3 overflow-hidden">
             <li
               data-current={theme === "light"}
               className="pb-1 border-b-2 border-red-500 border-opacity-30 data-[current=true]:border-opacity-100 hover:border-opacity-100"

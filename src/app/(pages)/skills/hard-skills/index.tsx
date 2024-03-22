@@ -7,7 +7,7 @@ export default function HardSkills() {
   return (
     <>
       <div className="text-3xl text-center">Habilidades técnicas:</div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-10 text-center">
         <SkillItem src="/logos/html5.svg" alt="HTML5" />
         <SkillItem src="/logos/css3.svg" alt="CSS3" />
         <SkillItem src="/logos/js.svg" alt="Javascript" />

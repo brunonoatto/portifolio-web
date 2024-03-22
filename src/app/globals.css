@@ -5,12 +5,14 @@
 @layer base {
   :root {
     --text-color: 28, 28, 28;
-    --bg-color: 220, 220, 220;
+    --bg-primary: 220, 220, 220;
+    --bg-secondary: 210, 210, 210;
   }
 
   .dark {
     --text-color: 250, 250, 250;
-    --bg-color: 28, 28, 28;
+    --bg-primary: 28, 28, 28;
+    --bg-secondary: 60, 60, 60;
   }
 
   body {
@@ -20,7 +22,7 @@
 
   body,
   header {
-    @apply text-textColor bg-bgColor;
+    @apply text-text-color bg-bg-primary;
   }
 }
 

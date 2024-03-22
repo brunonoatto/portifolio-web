@@ -6,9 +6,11 @@ const config: Config = {
   darkMode: "class",
   theme: {
     colors: {
-      textColor: "rgb(var(--text-color))",
-      bgColor: "rgb(var(--bg-color))",
+      "text-color": "rgb(var(--text-color))",
+      "bg-primary": "rgb(var(--bg-primary))",
+      "bg-secondary": "rgb(var(--bg-secondary))",
       red: colors.red,
+      zinc: colors.zinc,
     },
   },
   plugins: [],
