@@ -3,14 +3,14 @@
 import { useEffect, RefObject } from "react";
 
 type TUseOutsideClickProps = {
-  ref: RefObject<HTMLDivElement>;
+  ref: RefObject<HTMLElement>;
   action: () => void;
-  active: boolean;
+  active?: boolean;
 };
 export default function useOutsideClick({
   ref,
   action,
-  active,
+  active = true,
 }: TUseOutsideClickProps) {
   useEffect(() => {
     const handleOutsideClick = (event: MouseEvent) => {

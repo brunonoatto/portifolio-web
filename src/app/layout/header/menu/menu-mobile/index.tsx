@@ -32,7 +32,7 @@ export default function MenuMobile() {
       <IconButton icon="menu" className="md:hidden" onClick={handleMenuClick} />
       <div
         ref={menuListRef}
-        className="hidden p-4 text-center rounded-lg bg-neutral-900 absolute top-14 right-4 flex-col md:space-x-5 space-y-3"
+        className="hidden p-4 text-center rounded-lg border-2 border-red-500 bg-bgColor absolute top-14 right-4 flex-col md:space-x-5 space-y-3"
       >
         <MenuList onMenuClick={handleMenuClick} />
       </div>

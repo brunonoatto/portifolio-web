@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { ThemeProvider } from "next-themes";
 
 import Header from "./layout/header";
 import Footer from "./layout/footer";
@@ -60,11 +61,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" suppressHydrationWarning>
       <body className={`h-dvh px-4 md:px-10 ${roboto.className}`}>
-        <Header />
-        <main className="w-full space-y-10 m-auto px-4 py-12">{children}</main>
-        <Footer />
+        <ThemeProvider attribute="class" defaultTheme="dark">
+          <Header />
+          <main className="w-full space-y-10 m-auto px-4 py-12">
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
+
         <Analytics />
         <SpeedInsights />
       </body>
