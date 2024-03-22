@@ -14,6 +14,7 @@ export default function SoftSkills() {
         <SkillItem alt="Ética" />
         <SkillItem alt="Foco no usuário e no produto" />
         <SkillItem alt="Proatividade" />
+        <SkillItem alt="Curioso" />
       </div>
     </>
   );
