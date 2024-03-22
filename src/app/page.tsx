@@ -28,8 +28,8 @@ export default function Home() {
         title="Deixe-me apresentar:"
         paragraphs={[
           "Sou apaixonado por programação desde o primeiro dia de trabalho. Confesso que quando sai do ensino médio meu sonho era trabalhar com hardware (trocar memória, mexer na placa mãe e etc), porém o destino iria me levar para a programação, pois o primeiro curso que fiz era com ênfase em programação, grata surpresa.",
-          "Desde então trabalho com software. Com muito prazer e vontade de realmente fazer a diferença por onde passo. Gosto e faço questão de trabalhar em equipe e de poder ajudar além da programação, dando sugestões de melhorias, tanto no design quanto em regras de negócio. Sempre pensando na qualidade final do sistema que será entregue.",
-          "Este sou eu, participativo no contexto que estou inserido e prezando pela qualidade máxima no que faço.",
+          "Desde então trabalho com software. Com muito prazer e vontade de realmente fazer a diferença por onde passo. Gosto e faço questão de trabalhar em equipe e de poder ajudar além da programação, dando sugestões de melhorias, tanto no design quanto em regras de negócio. Sempre pensando na qualidade final do sistema que será entregue e na satisfação do cliente.",
+          "Este sou eu, participativo no contexto que estou inserido e prezando sempre pela qualidade máxima no que faço.",
         ]}
       />
     </>
