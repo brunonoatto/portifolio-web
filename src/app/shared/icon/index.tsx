@@ -1,4 +1,4 @@
-type TIcon = "menu" | "visibility" | "light_mode" | "dark_mode";
+type TIcon = "menu" | "visibility" | "refresh" | "light_mode" | "dark_mode";
 
 export type TIconProps = React.HTMLAttributes<HTMLSpanElement> & {
   name: TIcon;
